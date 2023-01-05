@@ -1,7 +1,7 @@
 #include <iostream>
 #include <conio.h>
 using namespace std;
-/*  1) PROBLEMA PRINCIPAL: Generar la serie de fibonachi 1 1 2 3 5 8 13 21 34
+/*  1) PROBLEMA PRINCIPAL: Generar la serie de fibonacci 1 1 2 3 5 8 13 21 34
 	2) PROBLEMA SECUNDARIO: Generar n-enesimas entradas
 	3) CONCLUSIONES:
 	     3.1) Generar un for para n-entradas
@@ -16,7 +16,7 @@ using namespace std;
 int main(int argc, char *argv[]) {
 	int n_entradas, n = 0, y = 1, variable_auxiliar = 1;
 	
-	printf ("%c Cuantos n%cmeros de fibonachi quieres generar:\n", 175, 163);
+	printf ("%c Cuantos n%cmeros de fibonacci quieres generar:\n", 175, 163);
 	cin >> n_entradas;
 	
 	for (int iterador=1; iterador<=n_entradas; iterador++){
