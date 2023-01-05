@@ -15,7 +15,6 @@ int main(int argc, char *argv[]) {
 	
 	for (int iterador = 1; iterador<=exponente; iterador++){
 		exponente_numero *=numero;
-		
 	}
 	printf ("%d\n", exponente_numero);
 
